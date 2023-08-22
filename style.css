@@ -1,0 +1,27 @@
+h1{
+    text-align: right;
+}
+
+h1,
+h3{
+    background-color: #d2aa8b;
+    color:white;
+}
+.maintext {
+    font-family: "Trebuchet MS", "Tahoma", Verdana;
+    color: #a67b5b;
+}
+
+#homepage,
+#productshot {
+    height: auto;
+    width: 400px;
+}
+
+.stepimg {
+    height: auto;
+    width: 700px;
+}
+
+
+
