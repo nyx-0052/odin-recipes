@@ -1,26 +1,50 @@
+body{
+    background-color: antiquewhite;
+}
 h1{
-    text-align: right;
+    text-align: center;
+    padding: 10px;
+    background-color: #d2aa8b;
+    color:white;
 }
 
-h1,
 h3{
     background-color: #d2aa8b;
     color:white;
+    padding: 5px;
 }
 .maintext {
     font-family: "Trebuchet MS", "Tahoma", Verdana;
     color: #a67b5b;
 }
 
+.home_main{
+    text-align: center;
+}
+
 #homepage,
 #productshot {
     height: auto;
     width: 400px;
+    margin: 10px auto;
+    display: block;
+    border: 5px dotted #a67b5b;
+    padding: 10px;
 }
 
+.backtohome{
+    font-size: 20px;
+    color: white;
+}
+
+li{
+    padding: 3px;
+}
 .stepimg {
     height: auto;
     width: 700px;
+    margin: 10px auto;
+    display: block;
 }
 
 
