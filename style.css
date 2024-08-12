@@ -1,19 +1,22 @@
 body{
     background-color: antiquewhite;
 }
-h1{
-    text-align: center;
-    padding: 10px;
+
+h1, h3{
     background-color: #d2aa8b;
     color:white;
 }
 
+h1{
+    text-align: center;
+    padding: 10px;
+}
+
 h3{
-    background-color: #d2aa8b;
-    color:white;
     padding: 5px;
 }
-.maintext {
+
+.maintext{
     font-family: "Trebuchet MS", "Tahoma", Verdana;
     color: #a67b5b;
 }
@@ -34,7 +37,6 @@ h3{
 
 .backtohome{
     font-size: 20px;
-    color: white;
 }
 
 li{
