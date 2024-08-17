@@ -8,3 +8,4 @@ Using HTML to build a basic webpage.
 
 2024
 12/08 UPDATE: increased the maintainiblity of CSS file.
+18/08 UPDATE: improved accessibility of code by changing colours; also applied box model knowledge appropriately/fixed up any previous box model mistakes. Edited recipe content.

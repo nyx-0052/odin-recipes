@@ -1,53 +1,95 @@
-body{
-    background-color: antiquewhite;
-}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
 
-h1, h3{
-    background-color: #d2aa8b;
-    color:white;
+body{
+    background-color: #735a50;
+    font-family: "Trebuchet MS", "Tahoma", Verdana;
+    color: antiquewhite;
 }
 
 h1{
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    background-color: #4f322c;
 }
 
 h3{
-    padding: 5px;
+    font-size: 16px;
+    padding: 8px;
+    background-color: #4f322c;
 }
 
-.maintext{
-    font-family: "Trebuchet MS", "Tahoma", Verdana;
-    color: #a67b5b;
+h4{
+    margin: 10px 0;
 }
 
-.home_main{
-    text-align: center;
+p{
+    margin: 20px;
 }
 
-#homepage,
-#productshot {
-    height: auto;
-    width: 400px;
-    margin: 10px auto;
-    display: block;
-    border: 5px dotted #a67b5b;
-    padding: 10px;
-}
-
-.backtohome{
-    font-size: 20px;
+ul, ol{
+    padding: 8px 0 8px 20px;
 }
 
 li{
-    padding: 3px;
-}
-.stepimg {
-    height: auto;
-    width: 700px;
-    margin: 10px auto;
-    display: block;
+    margin: 18px;
 }
 
+.main_recipes a{
+    margin: 10px;
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.backtohome{
+    color:antiquewhite;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.hometext{
+    text-align: center;
+}
+
+.main_recipes{
+    width: 500px;
+    background-color: #4f322c;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
+
+.homepage,
+.productshot {
+    display: block;
+    height: auto;
+    width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 5px dotted antiquewhite;
+    
+}
+
+.stepimg {
+    display: block;
+    height: auto;
+    width: 700px;
+    margin: 20px auto;
+}
+
+#inline{
+    display: inline;
+    margin: 0;
+}
 
 
